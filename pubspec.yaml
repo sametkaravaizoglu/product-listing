@@ -1,0 +1,70 @@
+name: flutter_product_test
+description: Test Case
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.1.3 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  flutter_localizations:
+    sdk: flutter
+
+  #state management
+  get: ^4.6.6
+
+  #network
+  dio: ^5.3.3
+
+  #utility
+  flutter_overlay_loader: ^2.0.0
+  flutter_screenutil: ^5.9.0
+  flutter_svg: ^2.0.10+1
+  cached_network_image: ^3.3.1
+  get_storage: ^2.1.1
+  connectivity_plus: ^5.0.2
+  
+  #model
+  equatable: ^2.0.5
+  
+  
+  talker_dio_logger: any
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.1
+  mockito: ^5.4.4
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/fonts/
+    - assets/svg/
+
+  fonts:
+    - family: TTNormsPro
+      fonts:
+        - asset: assets/fonts/TTNormsProThin.otf
+          weight: 100
+        - asset: assets/fonts/TTNormsProExtraLight.otf
+          weight: 200
+        - asset: assets/fonts/TTNormsProLight.otf
+          weight: 300
+        - asset: assets/fonts/TTNormsProRegular.otf
+          weight: 400
+        - asset: assets/fonts/TTNormsProMedium.otf
+          weight: 500
+        - asset: assets/fonts/TTNormsProExtraBlack.otf
+          weight: 600
+        - asset: assets/fonts/TTNormsProBold.otf
+          weight: 700
+        - asset: assets/fonts/TTNormsProExtraBold.otf
+          weight: 800
+        - asset: assets/fonts/TTNormsProBlack.otf
+          weight: 900
+
